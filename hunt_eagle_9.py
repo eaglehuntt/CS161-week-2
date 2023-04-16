@@ -113,19 +113,19 @@ class GuessingGame:
             None
         """
         if status == "WIN":
-            print(f'\n-------\nYOU WIN!\n-------\n')
+            print('\n-------\nYOU WIN!\n-------\n')
             print(
                 f'YOU: {len(self.player_guesses)} attempts {self.player_guesses}')
             print(f'CPU: {self.guesses_to_beat} attempts {self.cpu_guesses}')
 
         elif status == "DRAW":
-            print(f'\n-------\nDRAW!\n-------\n')
+            print('\n-------\nDRAW!\n-------\n')
             print(
                 f'YOU: {len(self.player_guesses)} attempts {self.player_guesses}')
-            print(f'CPU: {self.guesses_to_beat} attempts {self.cpu_guesses}')
+            print('CPU: {self.guesses_to_beat} attempts {self.cpu_guesses}')
 
         else:
-            print(f'\n-------\nYOU LOSE!\n-------\n')
+            print('\n-------\nYOU LOSE!\n-------\n')
             print(f'The secret number was: {self.__secret_number}\n')
             print(
                 f'YOU: {len(self.player_guesses)} attempts {self.player_guesses}')
