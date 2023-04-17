@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """a program that asks the user for a number n and prints the sum of the numbers 1 to n"""
 
-
 while True:
     try:
         n = int(input("Enter a number: "))
