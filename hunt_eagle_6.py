@@ -5,13 +5,13 @@ to choose between computing the sum and computing the product of 1,…,n.
 """
 
 def get_user_choice_and_compute_result(n):
-    """Recursive function that gets user choice and returns it. Calls itself if input is incorrect
+    """Recursive function that gets user choice and prints result. Calls itself if input is wrong
     
     Args:
         n (int): number that user inputs
 
     Returns:
-        choice (str): s | r depending on user
+        None
     """
     choice = input("Compute sum or product? (s | p) ")
 
